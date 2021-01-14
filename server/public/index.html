@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+</head>
+<body>
+    <h1>Bienvenidos</h1>
+    <h3>Y te divertiras tantantan</h3>
+    <div id="disconnected">
+        <div id="ingresa">
+            <h3>Ingresar</h3>
+            <form action="">
+                <input type="email" name="" id="email1" placeholder="Ingrese su Email">
+                <input type="password" name="" id="password1" placeholder="Ingrese su clave">
+            </form>
+            <button onclick="login()">ENVIAR</button>
+            <h3>o Registrate.</h3>
+            <button onclick="">Registrar</button>
+        </div>
+        <div id="registrar"> 
+            <h3>Registrate</h3>
+            <form action="">
+                <input type="email" name="" id="email2" placeholder="Ingrese su Email">
+                <input type="password" name="" id="password2" placeholder="Ingrese su clave">
+            </form>
+            <button onclick="signup()">ENVIAR</button>
+            <h3>o Ingresa.</h3>
+            <button onclick="">Ingresar</button>
+        </div>
+    </div>
+    <div id="connected">
+        <div id="salir">
+            <h1>Entraste a la app</h1>
+            <h3></h3>
+            <button onclick="logout()">SALIR</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
